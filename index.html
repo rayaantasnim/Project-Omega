@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Omega — Dangerous-Python Framework</title>
+
+    <!-- External Dependencies -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- =======================================================================
+     GLOBAL SEO & COMPLIANCE METADATA
+     ======================================================================= -->
+    <title>
+      Project Omega — Elite Python Prank & Psychological Simulation Framework
+    </title>
+    <meta
+      name="description"
+      content="Explore Project Omega (Dangerous-Python): an elite, production-grade terminal simulation framework engineered with zero-damage architecture, ANSI terminal art, and high-intensity hardware failure theater."
+    />
+    <meta
+      name="keywords"
+      content="Project Omega, Dangerous-Python, Python prank script, software prank, coding fun, computer science prank, terminal simulation, terminal art, ANSI colors, safe virus matrix"
+    />
+    <meta name="author" content="Rayaan Tasnim" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://github.com/rayaantasnim/Dangerous-Python"
+    />
+
+    <!-- =======================================================================
+     FACEBOOK OPEN GRAPH (OG) PROTOCOL METADATA
+     ======================================================================= -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Project Omega — Elite Python Prank & Simulation Framework"
+    />
+    <meta
+      property="og:description"
+      content="An enterprise-grade psychological engineering framework in Python. Features dynamic 3-strike logic, terminal color layers, fake data breach leaks, and core OS collapse simulations built with 100% safe, zero-damage code architecture."
+    />
+    <meta
+      property="og:url"
+      content="https://github.com/rayaantasnim/Dangerous-Python"
+    />
+    <meta property="og:site_name" content="Project Omega Framework" />
+    <meta property="og:image" content="https://pexels.com" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Project Omega Technical Coding Environment Workspace Banner Illustration"
+    />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- =======================================================================
+     X (TWITTER) INTERFACE CARD METADATA
+     ======================================================================= -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Project Omega — Elite Python Prank & Simulation Framework"
+    />
+    <meta
+      name="twitter:description"
+      content="Psychological simulation theater built in Python. Complete cross-platform runtime execution with custom motherboard audio alarms, raw ANSI escape pipelines, and modular design paths."
+    />
+    <meta name="twitter:image" content="https://pexels.com" />
+
+    <!-- =======================================================================
+     SCHEMA.ORG STRUCTURED DATA ENGINE (JSON-LD)
+     ======================================================================= -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://github.com/rayaantasnim/Dangerous-Python",
+            "name": "Project Omega (Dangerous-Python)",
+            "description": "Elite Python terminal prank and psychological engineering matrices with pure audio-visual fiction. Features dynamic 3-strike countdown logic, motherboard beep triggers, fake multi-platform chat leaks, and core OS collapse simulations operating under a strict 100% data safe, zero-damage sandboxed architecture.",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Windows, Linux, macOS",
+            "programmingLanguage": {
+              "@type": "ComputerLanguage",
+              "name": "Python",
+              "url": "https://python.org"
+            },
+            "downloadUrl": "https://github.com",
+            "codeRepository": "https://github.com",
+            "license": "https://opensource.org",
+            "author": {
+              "@type": "Person",
+              "name": "Rayaan Tasnim",
+              "jobTitle": "Systems Architect & Developer"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0.00",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org"
+            },
+            "featureList": [
+              "Native Cross-Platform Architecture without external module overhead",
+              "Raw ANSI Escape terminal coloring system and stream rewriting",
+              "Native winsound motherboard frequency alert trigger mechanisms",
+              "Base64 string obfuscation engine to bypass automated antivirus screening",
+              "Localized identity anchoring via user environmental telemetry flags",
+              "100% Non-destructive sandbox theater matrix"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://github.com/rayaantasnim/Dangerous-Python",
+            "url": "https://github.com/rayaantasnim/Dangerous-Python",
+            "name": "Project Omega Hub",
+            "description": "The elite tracking page for Project Omega terminal matrices and automated prank tools.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Olympiad Edge",
+              "legalName": "Olympiad Edge Systems"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- ==========================================================================
+       NAVIGATION BAR
+       ========================================================================== -->
+    <nav class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="#" class="brand-logo">
+          <i class="fa-solid fa-terminal"></i> Project Omega
+        </a>
+
+        <button
+          class="hamburger"
+          id="hamburgerBtn"
+          aria-label="Toggle Navigation"
+        >
+          <span class="hamburger-line line-1"></span>
+          <span class="hamburger-line line-2"></span>
+          <span class="hamburger-line line-3"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Fullscreen Sliding Nav Overlay -->
+    <div class="nav-overlay" id="navOverlay">
+      <button
+        class="nav-close-btn"
+        id="navCloseBtn"
+        aria-label="Close Navigation Menu"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-item">01. Overview</a></li>
+        <li><a href="#models" class="nav-item">02. Models</a></li>
+        <li><a href="#characteristics" class="nav-item">03. Engineering</a></li>
+        <li><a href="#conclusion" class="nav-item">04. Conclusion</a></li>
+      </ul>
+      <a
+        href="https://github.com/rayaantasnim/Dangerous-Python"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary"
+      >
+        <i class="fa-brands fa-github"></i> Repository Access
+      </a>
+    </div>
+
+    <!-- ==========================================================================
+       HERO BANNER SECTION
+       ========================================================================== -->
+    <header class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="badge">
+              <i class="fa-solid fa-triangle-exclamation"></i> Dangerous-Python
+              Architecture
+            </div>
+            <h1 style="font-size: 3rem">
+              Simulated Chaos. <span>Absolute Security.</span>
+            </h1>
+            <div class="hero-text-block">
+              <p>
+                Project Omega represents an elite psychological engineering
+                script architecture masquerading as a catastrophic core system
+                failure. Meticulously engineered using zero external Python
+                packages, this framework unleashes immersive, high-fidelity
+                emergency telemetry simulations—from dynamic screen shaking and
+                simulated file purges to motherboard audio frequency
+                modulations. Despite its visually terrifying presentation,
+                Project Omega operates entirely within non-destructive memory
+                buffers and sandboxed variables. It delivers profound tactical
+                awareness, stress-testing human operational compliance and panic
+                vectors under extreme, simulated catastrophic system strain.
+              </p>
+            </div>
+            <div class="hero-cta-group">
+              <a href="#models" class="btn btn-primary">
+                Explore Matrix Framework <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a
+                href="https://github.com/rayaantasnim/Dangerous-Python"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline"
+              >
+                <i class="fa-brands fa-github"></i> View Source Code
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-img-container">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Project Omega Terminal Interface Setup"
+              />
+            </div>
+            <div class="hero-tag-overlay">
+              <span
+                ><i class="fa-solid fa-circle-dot" style="color: #10b981"></i>
+                Status: Active Simulation</span
+              >
+              <span>v4.0.2 / Zero-Dependencies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==========================================================================
+       FOUR MODEL CARDS TRACK (VERTICAL SEQUENCE TRANSFORMED LAYOUT)
+       ========================================================================== -->
+    <section class="models-section" id="models">
+      <div class="container">
+        <div class="badge badge-blue">
+          <i class="fa-solid fa-cubes"></i> Attack Surfaces
+        </div>
+        <h2 class="section-title">Framework Attack Vectors</h2>
+        <p class="section-subtitle">
+          Four distinct behavioral modules designed to test compliance,
+          psychological resilience, and incident response under targeted
+          conditions.
+        </p>
+
+        <div class="models-sequence">
+          <!-- Card 01 -->
+          <div class="model-card-row">
+            <div class="model-media">
+              <div class="img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Elite Matchmaking Matrix"
+                />
+              </div>
+            </div>
+            <div class="model-info">
+              <span class="model-card-num">Variant A</span>
+              <h3>The Elite Matchmaking Matrix</h3>
+              <p>
+                Variant A exploits interpersonal dynamics by deploying a
+                seductive, gamified socio-technical matrix. Masquerading as an
+                exclusive preference-matching algorithm, it engages users
+                through targeted prompt sequences that subtly demand elevated
+                system permissions. As interactions progress, the module
+                leverages cognitive lock-in and authority bias, gradually
+                replacing harmless diagnostic dialogues with invasive system
+                probes, exposing how casual curiosity can bypass fundamental
+                security protocols.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 02 -->
+          <div class="model-card-row">
+            <div class="model-media">
+              <div class="img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Ephemeral Chat Leak Simulation"
+                />
+              </div>
+            </div>
+            <div class="model-info">
+              <span class="model-card-num">Model B1</span>
+              <h3>Ephemeral Chat Leak Simulation</h3>
+              <p>
+                Model B1 targets corporate communication vulnerability by
+                simulating a real-time breach of active internal message stores.
+                Utilizing localized ANSI terminal updates, it streams realistic
+                transcripts of high-value internal conversations alongside
+                simulated remote exfiltration progress bars. This psychological
+                pressure test evaluates whether operators respond with
+                disciplined protocol execution or engage in unverified panic
+                responses when confronted with impending reputational risk.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 03 -->
+          <div class="model-card-row">
+            <div class="model-media">
+              <div class="img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Workspace Directory Purge Vector"
+                />
+              </div>
+            </div>
+            <div class="model-info">
+              <span class="model-card-num">Model B2</span>
+              <h3>Workspace Directory Purge Vector</h3>
+              <p>
+                Model B2 triggers raw existential panic by projecting a rapid,
+                unrecoverable filesystem destruction sequence. By indexing user
+                file trees and generating high-speed terminal deletion outputs,
+                it convinces the user that local workspaces and game directories
+                are being permanently wiped. The module assesses human reaction
+                speeds under severe stress, specifically identifying whether
+                operators initiate unauthorized hard resets or follow prescribed
+                security escalation trees.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 04 -->
+          <div class="model-card-row">
+            <div class="model-media">
+              <div class="img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Academic Faculty Compliance Engine"
+                />
+              </div>
+            </div>
+            <div class="model-info">
+              <span class="model-card-num">Variant C</span>
+              <h3>Academic Faculty Compliance Engine</h3>
+              <p>
+                Variant C targets institutional research environments by
+                imitating an automated compliance and integrity audit failure.
+                Displaying stern, official compliance warnings alongside
+                countdown timers threatening system locking, it measures how
+                readily users surrender administrative credentials or execute
+                unauthorized overrides to avoid bureaucratic penalties. It
+                highlights critical organizational vulnerabilities at the
+                intersection of authority structures and fear.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       TEN CHARACTERISTICS SECTIONS
+       ========================================================================== -->
+    <section class="characteristics-section" id="characteristics">
+      <div class="container">
+        <div class="badge">
+          <i class="fa-solid fa-microchip"></i> System Architecture
+        </div>
+        <h2 class="section-title">Ten Core Technical Characteristics</h2>
+        <p class="section-subtitle">
+          An in-depth look at the zero-dependency Python mechanisms powering
+          Project Omega's psychological simulations.
+        </p>
+
+        <!-- Characteristic 01 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">01 / ARCHITECTURE</span>
+            <h3>Native Cross-Platform Architecture</h3>
+            <p>
+              Project Omega operates entirely without external package
+              dependencies, leveraging strictly standard library modules (`os`,
+              `sys`, `time`, `ctypes`, `winsound`). This zero-footprint strategy
+              ensures instant deployment across air-gapped workstations,
+              restricted enterprise environments, and clean Python installs
+              without triggering third-party pip package installation warnings.
+              By eliminating external requirements, the framework ensures
+              absolute execution reliability across Windows, macOS, and Linux
+              kernels with zero administrative friction.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Native Cross-Platform Architecture"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Characteristic 02 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">02 / VISUALS</span>
+            <h3>ANSI Escape Graphic Styling</h3>
+            <p>
+              The core engine harnesses low-level ANSI escape sequences to turn
+              standard command-line interfaces into high-impact visual theaters.
+              By dynamically controlling cursor coordinates, screen buffers,
+              dynamic colors, and terminal clearing routines, Omega simulates
+              full-screen graphical corruption, blinking warning badges, and
+              rapid terminal rewrites. This approach bypasses heavy GUI
+              framework requirements while maintaining immersion across native
+              terminal emulators.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="ANSI Escape Graphic Styling"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Characteristic 03 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">03 / AUDIO</span>
+            <h3>Motherboard Frequency Modulation</h3>
+            <p>
+              Omega taps into basic hardware interfaces via direct audio
+              frequency modulation (`winsound.Beep` on Windows and terminal bell
+              sequences on UNIX systems). By synthesizing specific acoustic
+              frequencies—ranging from harsh 2000Hz alert chirps to
+              low-frequency pulsing rumble patterns—the framework triggers
+              subconscious auditory alarm responses. This multi-sensory exposure
+              heightens user stress, making simulated system failures feel
+              instantly real and urgent.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/159201/circuit-circuit-board-resistor-computer-159201.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Motherboard Frequency Modulation"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Characteristic 04 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">04 / SECURITY</span>
+            <h3>Base64 Obfuscation Engine</h3>
+            <p>
+              To bypass static heuristic scanners and string-matching defensive
+              tools during authorized exercises, Omega incorporates a runtime
+              Base64 payload decoding engine. Critical string payloads, panic
+              sequences, and simulated threat banners remain fully obfuscated
+              inside source code files until execution. Upon launch, string
+              payloads decode directly into memory buffers, preventing
+              pre-execution flagging by basic security software.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Base64 Obfuscation Engine"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Characteristic 05 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">05 / TELEMETRY</span>
+            <h3>Dynamic Path Telemetry</h3>
+            <p>
+              The engine actively scans the target environment's file system
+              layout to extract authentic local directory paths (`~/',
+              `%USERPROFILE%`, system roots). During panic simulation routines,
+              these real directory strings are injected into simulated deletion
+              streams in real time. Seeing actual local pathnames flash across
+              the terminal window creates high situational realism, convincing
+              users that an uncontained, destructive execution event is
+              occurring on their personal workstation.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Dynamic Path Telemetry"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Characteristic 06 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">06 / IDENTITY</span>
+            <h3>Identity Anchoring Protocol</h3>
+            <p>
+              Omega personalizes its panic scripts by dynamically querying
+              system environmental variables, active username handles, local IP
+              configurations, and hostname details. Incorporating this context
+              into simulated security warnings makes the alert feel tailored
+              specifically to the operator. This identity anchoring breaks
+              through generic detachment, placing the targeted operator at the
+              center of the simulated incident response scenario.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Identity Anchoring Protocol"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Characteristic 07 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">07 / ESCALATION</span>
+            <h3>Multi-Tier Strike Escalation</h3>
+            <p>
+              The framework uses dynamic state loops that evaluate user input
+              and delay periods. If an operator attempts invalid bypass keys or
+              hesitates during compliance prompts, Omega escalates its
+              simulation intensity level. Terminal text updates faster, error
+              frequencies shift pitch, and terminal warning graphics turn
+              vibrant crimson red, simulating an escalating malware outbreak
+              triggered by user hesitation.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Multi-Tier Strike Escalation"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Characteristic 08 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">08 / GASLIGHTING</span>
+            <h3>Tactical Visual Gaslighting</h3>
+            <p>
+              Omega uses precise console window manipulation techniques to shake
+              screen elements, rapidly blink window titles, and adjust terminal
+              dimensions on supported platforms. Combined with scrolling streams
+              of mock hex dumps and fake kernel panics, this creates an engaging
+              visual illusion of hardware control loss, testing whether
+              operators maintain composure under unfamiliar visual conditions.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Tactical Visual Gaslighting"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Characteristic 09 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">09 / SAFETY</span>
+            <h3>Zero-Damage Safety Guardrails</h3>
+            <p>
+              Underneath its alarming visual interface, Project Omega enforces
+              strict safety constraints. All file modification routines run in
+              read-only mode or interact solely with isolated volatile memory
+              buffers. No permanent drive changes, registry alterations, or
+              network payloads are ever written or transmitted. This total
+              containment model guarantees that even if a simulation is forcibly
+              terminated, system stability remains entirely uncompromised.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/4383298/pexels-photo-4383298.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Zero-Damage Safety Guardrails"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Characteristic 10 -->
+        <div class="char-row">
+          <div class="char-content">
+            <span class="char-num">10 / RECOVERY</span>
+            <h3>Advanced Environment Recovery</h3>
+            <p>
+              At the conclusion of a training module, Omega transitions into an
+              educational debrief phase. With a single terminal signal, all
+              alarming terminal output vanishes, replacing panic screens with
+              clear performance metrics, response timelines, and safety
+              confirmations. This instant state reset returns the host system to
+              its exact pre-execution state, transforming an intense simulation
+              into an actionable training experience.
+            </p>
+          </div>
+          <div class="char-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Advanced Environment Recovery"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       CONCLUSION SECTION
+       ========================================================================== -->
+    <section class="conclusion-section" id="conclusion">
+      <div class="container">
+        <div class="conclusion-grid">
+          <div class="conclusion-content">
+            <div class="badge badge-blue">
+              <i class="fa-solid fa-shield-halved"></i> Operational Summary
+            </div>
+            <h2>The Intersection of Technology & Psychology</h2>
+            <p>
+              Project Omega demonstrates that human psychological factors remain
+              a critical dimension in modern cybersecurity posture. By combining
+              sophisticated psychological theater with robust zero-damage safety
+              guardrails, the framework provides a controlled environment for
+              measuring threat responses without risking operational assets.
+              Designed exclusively for authorized security training,
+              psychological research, and protocol validation, Project Omega
+              helps organizations build genuine security resilience where
+              technical controls and human operational compliance intersect.
+            </p>
+            <a
+              href="https://github.com/rayaantasnim/Dangerous-Python"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+            >
+              <i class="fa-brands fa-github"></i> Access Repository on GitHub
+            </a>
+          </div>
+
+          <div class="conclusion-media">
+            <div class="img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Project Omega Safety Architecture"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Authorized by <span class="footer-brand">Rayaan Tasnim</span> with
+          precision
+        </p>
+        <p>&copy; Project Omega 2026; All rights reserved</p>
+        <p>Powered by <span class="footer-brand">Olympiad Edge</span></p>
+      </div>
+    </footer>
+
+    <!-- ==========================================================================
+       INTERACTIVITY & GSAP ANIMATIONS
+       ========================================================================== -->
+    <script src="script.js"></script>
+  </body>
+</html>
